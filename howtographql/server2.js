@@ -37,7 +37,6 @@ app.listen(4000);
 }
 
 
-
 var dice = 3;
 var sides = 6;
 var query = `query RollDice($dice: Int!, $sides: Int) {
@@ -56,4 +55,5 @@ fetch('/graphql', {
   })
 })
   .then(r => r.json())
+
 */
