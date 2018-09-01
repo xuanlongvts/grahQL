@@ -29,3 +29,21 @@ app.use(
 );
 app.listen(4000);
 console.log('Running a GraphQL API server at localhost:4000/graphql');
+
+/*
+    {
+        hello
+    }
+
+
+    fetch('/graphql', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+        },
+        body: JSON.stringify({query: "{ hello }"})
+    })
+    .then(r => r.json())
+    .then(data => console.log('data returned:', data));
+*/

@@ -49,3 +49,12 @@ app.use(
     })
 );
 app.listen(4000);
+
+/*
+{
+  getDie(numSides: 6) {
+    rollOnce
+    roll(numRolls: 3)
+  }
+}
+*/
